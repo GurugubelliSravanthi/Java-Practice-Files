@@ -1,4 +1,4 @@
-package practice2;
+package FactoryDesign;
 
 interface college {
   void disp();

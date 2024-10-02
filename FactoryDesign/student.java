@@ -1,4 +1,4 @@
-package practice2;
+package FactoryDesign;
 
 public class student implements college {
   public void disp() {
