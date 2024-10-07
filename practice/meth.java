@@ -2,14 +2,11 @@ import java.util.Scanner;
 public class meth{
 
   public static void main(String[] args) {
-    
     hii();
-
     hlo("hello");
 
-    int g=jasm();
-    System.out.println("mutliplication of 2 num: "+g);
-
+    int g = jasm();
+    System.out.println("mutliplication of 2 num: " + g);
     
 int a;
 int b;
@@ -34,24 +31,22 @@ public static void hlo(String a ){
 }
 //ret but no arg
 
-public static int jasm(){
+public static int jasm() {
   int gt;
   int gy;
   Scanner obj = new Scanner(System.in);
   System.out.println("enter 2 num:");
-gt= obj.nextInt();
-gy= obj.nextInt();
-  int go = gt*gy;
- 
+  gt = obj.nextInt();
+  gy = obj.nextInt();
+  int go = gt * gy;
 
   return go;
 }
 
 //no ret but arg
-
 public static int ramo(int a, int b){
 
-  int c= a-b;
+  int c= a-b; 
 
   return c;
  
