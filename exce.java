@@ -1,4 +1,4 @@
-package Mythreads;
+
 
 class comp {
   String name = null;
